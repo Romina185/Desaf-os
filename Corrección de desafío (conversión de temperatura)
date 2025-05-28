@@ -1,0 +1,93 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Romina185/Desaf-os/blob/main/Correcci%C3%B3n%20de%20desaf%C3%ADo%20(conversi%C3%B3n%20de%20temperatura)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Desafío 3\n",
+        "#Convertir una temperatura dada en Celsius a Fahrenheit y Kelvin utilizando operaciones directas sobre variables.\n",
+        "\n",
+        "#Temperatura en Celsius.\n",
+        "#\"Ingresar la temperatura en Celsius\"\n",
+        "Celsius = float(\"25.8\")\n",
+        "# Conversión a Fahrenheit\n",
+        "#Aplicar fórmula de conversión\n",
+        "Fahrenheit = (Celsius * 1.8) + 32\n",
+        "#Conversión a Kelvin\n",
+        "kelvin = Celsius + 273.15\n",
+        "#Operaciones aplicadas: multiplicación y suma.\n",
+        "# Mostrar los resultados\n",
+        "print(f\"Temperatura en Celsius: {Celsius} °C\")\n",
+        "print(f\"Temperatura en Fahrenheit: {Fahrenheit} °F\")\n",
+        "print(f\"Temperatura en Kelvin: {kelvin} °F\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "e2426df3-8036-4111-aaa1-caa8d19160c7",
+        "id": "tlT_M-VfJyL4"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Temperatura en Celsius: 25.8 °C\n",
+            "Temperatura en Fahrenheit: 78.44 °F\n",
+            "Temperatura en Kelvin: 298.95 °F\n"
+          ]
+        }
+      ],
+      "id": "tlT_M-VfJyL4"
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Primero identificar las variables a utilizar. Luego usar la opción float ya que se va a trabajar con datos números reales que incluyen decimales. Allí identificar las operaciones aplicadas para convertir Grado Celsius a Fahrenheit. Luego la conversion de Celsius a Kelvin. Imprimir los resultados a partir de las conversiones estableciendo las relaciones.\n",
+        "\n",
+        "Webgrafía utilizada: Tipos_de_datos_y_operadores.ipynb https://www.newark.com/es/convertidor-temperatura Estrategias_de_resolucion_de_problemas.ipynb https://offers.hubspot.es/guia-introduccion-python https://peps.python.org/pep-0008/\n"
+      ],
+      "metadata": {
+        "id": "4fV11Qa2Nix9"
+      },
+      "id": "4fV11Qa2Nix9"
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.11.1"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
