@@ -1,0 +1,13 @@
+#Se define el cálculo del mínimo común múltiplo.
+def calcular_mcm(a, b):
+    mayor = max(a, b)
+    while True:
+        if mayor % a == 0 and mayor % b == 0:
+            return mayor
+        mayor += 1
+#Se expresan los números
+num1 = 12
+num2 = 18
+resultado = calcular_mcm(num1, num2)
+#Se imrpime el resultado
+print(f"El MCM de {num1} y {num2} es {resultado}")
